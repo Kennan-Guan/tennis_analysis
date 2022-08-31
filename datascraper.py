@@ -46,6 +46,6 @@ def scraper(url, file_name, file_type):
 #calls scraper 4 times to access 4 different tables, only used 1 for project
 
 scraper('http://www.tennisabstract.com/cgi-bin/leaders.cgi', 'serve.csv', 'x')
-#scraper('http://www.tennisabstract.com/cgi-bin/leaders.cgi?f=s00w1', 'return.csv', 'x')
-#scraper('http://www.tennisabstract.com/cgi-bin/leaders.cgi?f=s00l1', 'breaks.csv', 'x')
-#scraper('http://www.tennisabstract.com/cgi-bin/leaders.cgi?f=s00t1', 'more.csv', 'x')
+scraper('http://www.tennisabstract.com/cgi-bin/leaders.cgi?f=s00w1', 'return.csv', 'x')
+scraper('http://www.tennisabstract.com/cgi-bin/leaders.cgi?f=s00l1', 'breaks.csv', 'x')
+scraper('http://www.tennisabstract.com/cgi-bin/leaders.cgi?f=s00t1', 'more.csv', 'x')
